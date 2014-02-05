@@ -5,13 +5,13 @@ Getting Started with Grunt.
 2. (create a package.json file) In terminal, navigate to the project folder, and run 'touch package.json'
 3. Paste the following into package.json file  
 
-    `{
+    ```{
         "name": "example-project",
         "version": "0.1.0",
             "devDependencies": {
                 "grunt": "~0.4.1"
         }
-    }`  
+    }```  
     
 4. (install node package manager) In Terminal run: `npm install`
 5. (install Grunt via node package manager) In Terminal run `npm install -g grunt-cli`
