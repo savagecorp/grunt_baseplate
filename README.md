@@ -6,12 +6,12 @@ Getting Started with Grunt.
 3. Paste the following into package.json file  
 
 
-    {
-      "name": "example-project",
-      "version": "0.1.0",
-      "devDependencies": {
-          "grunt": "~0.4.1"
-      }
+    {  
+        "name": "example-project",  
+        "version": "0.1.0",  
+        "devDependencies": {  
+            "grunt": "~0.4.1"
+        }
     }
 
     
