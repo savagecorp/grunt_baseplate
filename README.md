@@ -7,13 +7,13 @@ Getting Started with Grunt.
 
 
 ```
-    {  
-        "name": "example-project",  
-        "version": "0.1.0",  
-        "devDependencies": {  
-            "grunt": "~0.4.1"
-        }  
-    }
+  {  
+    "name": "example-project",  
+    "version": "0.1.0",  
+    "devDependencies": {  
+        "grunt": "~0.4.1"
+    }  
+  }
 ```
     
 4. (install node package manager) In Terminal run: `npm install`
