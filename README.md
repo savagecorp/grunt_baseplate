@@ -7,22 +7,6 @@ Getting Started with Grunt.
 
 
 ```
-  grunticon: {
-    myIcons: {
-      files: [{
-        expand: true,
-        cwd: 'example/source',
-        src: ['*.svg', '*.png'],
-        dest: "example/output"
-      }],
-      options: {
-      }
-    }
-  }
-```
-
-
-```
     {  
         "name": "example-project",  
         "version": "0.1.0",  
