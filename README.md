@@ -1,7 +1,7 @@
 Getting Started with Grunt. 
 ==========================
 
-1. Install Node, buy clicking install [on the Node website](http://nodejs.org/ ) 
+1. Install Node, by clicking install [on the Node website](http://nodejs.org/ ) 
 2. (create a package.json file) In terminal, navigate to the project folder, and run 'touch package.json'
 3. Paste the following into package.json file  
 
