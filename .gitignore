@@ -1,4 +1,3 @@
-
 ### OSX Ignores
 .DS_Store
 Thumbs.db
@@ -31,7 +30,7 @@ Thumbs.db
 ### Front-end Ignores
 # use depends on preference for committing installed/compiled modules/files
 # node_modules/
-# ower_components/
+# bower_components/
 # *.log
 # build/
 # dist/
