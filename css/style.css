@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! Cardinal v2.1.3 | MIT License | http://cardinalcss.com */
+/* Cardinal v2.1.3 | MIT License | http://cardinalcss.com */
 /* ================================================================== *\
 
    Name: Your Project Name
@@ -48,7 +48,7 @@
 /* ================================================================== *\
    Base ($base)
 \* ================================================================== */
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* normalize.css v2.1.3 | MIT License | git.io/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -121,10 +121,10 @@ sub, sup {
   vertical-align: baseline; }
 
 sup {
-  top: -.5em; }
+  top: -0.5em; }
 
 sub {
-  bottom: -.25em; }
+  bottom: -0.25em; }
 
 img {
   border: 0; }
@@ -330,7 +330,7 @@ blockquote {
   border-left: 0.375rem solid #efefef;
   font-style: italic;
   font-size: 1.333rem;
-  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; }
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text",         Garamond, "Times New Roman", serif; }
 
 blockquote p {
   margin: 0; }
@@ -425,7 +425,7 @@ details {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 4.209rem;
-  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text",         Garamond, "Times New Roman", serif;
   line-height: 1; }
 
 em,
@@ -793,7 +793,7 @@ pre,
 samp {
   color: #444;
   font-size: 0.875rem;
-  font-family: Monaco, "Lucida Sans Typewriter", Consolas, "Courier New", monospace; }
+  font-family: Monaco, "Lucida Sans Typewriter", Consolas,         "Courier New", monospace; }
 
 code {
   margin: 0;
@@ -815,9 +815,9 @@ kbd {
   -moz-border-radius: 0.238rem;
   border-radius: 0.238rem;
   background: #f8f8f8;
-  -webkit-box-shadow: 0 1px 0 #dedede, inset 0 0 0 1px #fff;
-  -moz-box-shadow: 0 1px 0 #dedede, inset 0 0 0 1px #fff;
-  box-shadow: 0 1px 0 #dedede, inset 0 0 0 1px #fff;
+  -webkit-box-shadow: 0 1px 0 #dedede,         inset 0 0 0 1px #fff;
+  -moz-box-shadow: 0 1px 0 #dedede,         inset 0 0 0 1px #fff;
+  box-shadow: 0 1px 0 #dedede,         inset 0 0 0 1px #fff;
   white-space: nowrap; }
 
 pre {
@@ -1219,8 +1219,6 @@ textarea {
   thead {
     display: table-header-group;
     /* http://cbrac.co/Q6s1o2 */ } }
-
 body {
   background: #f0f0f0;
   font-size: 13px; }
-

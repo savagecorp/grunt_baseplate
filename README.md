@@ -16,7 +16,7 @@ Getting Started with Grunt.
   }
 ```
     
-4. (install node package manager) In Terminal run: `npm install`
+<!-- 4. (install node package manager) In Terminal run: `npm install` -->
 5. (install Grunt via node package manager) In Terminal run `npm install -g grunt-cli`
 6. (customize files) Go into the Gruntfile.js and update file path accordingly to you images directory / scss & css / files to watch etc...
 
