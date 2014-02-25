@@ -3,18 +3,8 @@ Getting Started with Grunt.
 
 1. Install Node, by clicking install [on the Node website](http://nodejs.org/ ) 
 
-2. Update package.json file as needed, the basic information you need is:  
-
-
-```
-  {  
-    "name": "example-project",  
-    "version": "0.1.0",  
-    "devDependencies": {  
-        "grunt": "~0.4.1"
-    }  
-  }
-```
+2. Update package.json with your new projuct name, 
+(lowercase_underscore).
     
 
 5. (install Grunt via node package manager) In Terminal run `npm install -g grunt-cli`
