@@ -3,6 +3,14 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+    connect: {
+      server: {
+        options: {
+          port: 4000,
+          keepalive: true
+        }
+      }
+    },
     sass: {
       dist: {
         files: {
@@ -46,7 +54,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
-    grunt.registerTask('default', ['sass', 'imagemin', 'watch']);
+    grunt.registerTask('default', ['sass', 'imagemin', 'watch', 'connect']);
 
 };
